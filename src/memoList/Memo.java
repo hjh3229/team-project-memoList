@@ -13,6 +13,7 @@ public class Memo {
 
     // getter/setter는 완성 후 사용하지 않는 것을 지워주세요
 
+
     public int getMemoNumber() {
         return memoNumber;
     }

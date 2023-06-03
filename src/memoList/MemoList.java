@@ -16,7 +16,8 @@ public class MemoList {
         this.memos = memos;
     }
 
-    private int saveMemoNumber(int selectNumber) { // 수정/삭제할 때 선택한 메모를 초기화 하기 전에 미리 해당 메모의 번호를 저장해두는 메서드
+    // 수정/삭제할 때 선택한 메모를 초기화 하기 전에 미리 해당 메모의 번호를 저장해두는 메서드
+    private int saveMemoNumber(int selectNumber) {
         int saveMemoNumber = selectNumber;
         return saveMemoNumber;
     }
