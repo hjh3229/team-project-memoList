@@ -42,6 +42,9 @@ public class MemoList {
                     break;
                 case 3 :
                     // 메모 삭제 메서드
+                    DeleteMemo delete = new DeleteMemo(this);
+                    delete.deleteMemo();
+                    break;
                 case 0 :
                     return; // 메모 창 작업 닫기
                 default:
