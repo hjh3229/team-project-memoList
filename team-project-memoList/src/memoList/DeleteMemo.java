@@ -29,6 +29,9 @@ public class DeleteMemo implements MemoListManager{
                     System.out.println("다시 입력해 주세요.");
                 } else {
                     deleteMemos.remove(deleteMemo);
+                    for (int i = memoNumber; i < deleteMemoList.getMemos().size(); i++) { // 메모 번호 수정
+                        deleteMemoList.getMemos().get(i).setMemoNumber(i+1); // 각 메모의 번호가 index 보다 1씩 크게 출력되도록
+                    }
                     System.out.println("삭제가 완료되었습니다.");
                     break;
                 }
