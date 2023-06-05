@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50dd951c-b60e-4bd1-a835-34a0d140ac35" name="Changes" comment="">
+    <list default="true" id="50dd951c-b60e-4bd1-a835-34a0d140ac35" name="Changes" comment="Making MemoList class and edit Memo class, Main class">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MemoList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/memoList/MemoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memoList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memoList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memoList/Memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memoList/Memo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="66b36cf1-8ac4-4991-92d4-1cabb3babe17" />
+        <option name="url" value="git@github.com:hjh3229/team-project-memoList.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="2QgKNTt8bV5x6ysSQhCyhlWIHWH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -71,6 +82,18 @@
       <option name="presentableId" value="Default" />
       <updated>1685769746029</updated>
     </task>
+    <task id="LOCAL-00001" summary="Making MemoList class and edit Memo class, Main class">
+      <created>1685774778612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685774778612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Making MemoList class and edit Memo class, Main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making MemoList class and edit Memo class, Main class" />
   </component>
 </project>
