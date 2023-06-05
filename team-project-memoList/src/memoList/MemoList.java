@@ -12,15 +12,10 @@ public class MemoList {
         return memos;
     }
 
-    public void setMemos(ArrayList<Memo> memos) {
-        this.memos = memos;
+    public void addMemo(Memo memo) {
+        memos.add(memo);
     }
-
-    // 수정/삭제할 때 선택한 메모를 초기화 하기 전에 미리 해당 메모의 번호를 저장해두는 메서드
-    private int saveMemoNumber(int selectNumber) {
-        int saveMemoNumber = selectNumber;
-        return saveMemoNumber;
-    }
+    
     // 작성자 : 오세창 // MemoListManager 초기화
     private MemoListManager memoListManager;
 
@@ -28,13 +23,13 @@ public class MemoList {
     public void printMemos() {
         while (true) {
             System.out.println("\n------------------------------------------------\n");
-            System.out.println("1. 메모 추가     2. 메모 조회      3. 메모 조회      4. 메모 삭제      5. 종료");
+            System.out.println("1. 메모 추가     2. 메모 조회      3. 메모 수정      4. 메모 삭제      5. 종료");
             Scanner sc = new Scanner(System.in);
             int check = sc.nextInt(); // 아래에서 메모 작업을 수행할 때 받을 번호 입력
             switch (check) {
                 case 1:
                     // 메모 추가 메서드
-                    memoListManager = new CreateMemo(this); // CreateMemo를 인스턴스화 하고, 이를 memoListManager 변수에 할당 => 이 과정에서 this 활용
+                    memoListManager = new Input(this); // CreateMemo를 인스턴스화 하고, 이를 memoListManager 변수에 할당 => 이 과정에서 this 활용
                     memoListManager.performAction();
                     break;
                 case 2:
@@ -48,6 +43,7 @@ public class MemoList {
                 case 4:
                     memoListManager = new DeleteMemo(this);
                     memoListManager.performAction();
+                    break;
                 case 5:
                     return; // 메모 창 작업 닫기
                 default:
