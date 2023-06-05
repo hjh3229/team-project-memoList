@@ -22,10 +22,6 @@ public class UpdateMemo implements MemoListManager{
 
         try {
             Memo updateMemo = updateMemos.get(memoNumber); // ArrayList<Memo> memos 를 받은 updateMemos 의 위치 지정하여 Memo updateMemo 에 삽입
-
-            if (updateMemo.getWritedMemo() == null) {
-                System.out.println("해당 메모는 비어있습니다.");
-            } // 메모 번호는 존재하지만, 메모값이 null 일때 작동하는 부분인데, 굳이 필요 없다면 지워도 될 거 같습니다.
             // 메모 번호가 없을 때 작동하는 건 아래 catch 문으로 구현했습니다.
 
             System.out.println("비밀번호를 입력해주세요"); //  == 3번 요구 사항 충족 == //
