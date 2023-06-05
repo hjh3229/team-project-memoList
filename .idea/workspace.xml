@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50dd951c-b60e-4bd1-a835-34a0d140ac35" name="Changes" comment="" />
+    <list default="true" id="50dd951c-b60e-4bd1-a835-34a0d140ac35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/memoList/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/memoList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memoList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/memoList/MemoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memoList/MemoList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +35,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "InPut",
+    "last_opened_file_path": "C:/Users/dltmd/sparta/FirstJava/src/memoList"
   }
 }]]></component>
   <component name="RunManager">

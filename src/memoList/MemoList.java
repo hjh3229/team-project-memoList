@@ -12,6 +12,10 @@ public class MemoList {
         return memos;
     }
 
+    public void addMemo(Memo memo) {
+        memos.add(memo);
+    }
+
     public void setMemos(ArrayList<Memo> memos) {
         this.memos = memos;
     }
