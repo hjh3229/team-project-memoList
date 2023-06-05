@@ -46,6 +46,7 @@ public class UpdateMemo implements MemoListManager{
             System.out.println("현재 내용 : " + updateMemo.getWritedMemo());
             String editMemoWrite = stringScanner.nextLine();
             updateMemo.setWritedMemo(editMemoWrite);
+            updateMemo.editWtritedTime(); // 시간 수정
 
             System.out.println("수정을 완료하시겠습니까 ?");
             System.out.println("1. 에    2. 아니오");
